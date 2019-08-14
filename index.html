@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Converter RGB and HEX</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div id="screen">
+        <div id="container">
+            <div id="left_screen">
+                <h1 id="title">Conversor de RGB e HEX</h1>
+                <div class="box-info">
+                    <h3 class="sub-title">RGB para HEX</h3>
+                    <p class="artigo">Usando branco como exemplo:</p>
+                    <p class="artigo">Branco é R = 255, G = 255 e B = 255.</p>
+                    <p class="artigo">Então vamos fazer a divisão desses valores por 16.</p>
+                    <p class="artigo">255:16 = 15%15 – Ou 255 dividido por 16 é igual a 15 com resto 15.</p>
+                    <p class="artigo">Logo temos 15 que é F em hexadecimal,</p>
+                    <p class="artigo">Ficando FF (quociente|resto), juntando os três valores #FFFFFF</p>                     
+                </div>
+                <div class="box-info">
+                    <h3 class="sub-title">HEX para RGB</h3>
+                    <p class="artigo">Usando branco como exemplo:</p>
+                    <p class="artigo">Branco é #FFFFFF, onde a cada dois simbolos equivale a uma cor do RGB</p>
+                    <p class="artigo">Por exemplo R = FF, G = FF, B = FF</p>
+                    <p class="artigo">Então vamos fazer a multiplicação do primeiro simbolo por 16 e depois somar o segundo simbolo.</p>
+                    <p class="artigo">F(15)x16 = 240 + F(15) = 255</p>
+                    <p class="artigo">Logo temos 255, juntando os três valores temos 255, 255, 255</p>                     
+                </div>
+            </div>
+            <div id="right_screen">
+                <div id="expo">
+                    <div data-snack-id="@gustavo_matsuo/converter---rgb-and-hex" data-snack-platform="ios" data-snack-preview="true" data-snack-theme="dark" style="overflow:hidden;background:#212733;border:1px solid rgba(0,0,0,.08);border-radius:4px;height:505px;width:100%"></div>
+                    <script async src="https://snack.expo.io/embed.js"></script>
+                    <div id="credit">
+                        <a id="name" href="https://github.com/GustavoMatsuo" target="blank">By Gustavo Matsuo Fuji</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
